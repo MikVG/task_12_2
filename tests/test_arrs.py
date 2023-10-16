@@ -9,7 +9,7 @@ def array_fixture():
 
 def test_get(array_fixture):
     assert arrs.get(array_fixture, 1, "test") == 2
-    assert arrs.get([], 0, "test") == "test"
+    assert arrs.get([], 0, "test") == None
 
 
 def test_slice(array_fixture):

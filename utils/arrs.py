@@ -9,8 +9,6 @@ def get(array, index, default=None):
     :return: значение по индексу или значение по-умолчанию.
     """
 
-    #if 0 > index >= len(array):
-    #    return default
 
     if 0 <= index < len(array):
         return array[index]
